@@ -3,7 +3,7 @@ import random
 print('Welcome to the slots!')
 print('')
 print('In order to win, you gotta line up a 777')
-print('Like this! 7️⃣ |7️⃣ |7️⃣')
+print('Like this! 7️⃣  |7️⃣ |7️⃣')
 print('Good luck, you\'re gonna need it')
 print('')
 
@@ -21,6 +21,6 @@ def play():
     print('')
 
 answer = ''
-while answer.upper() != 'N':
+while answer.upper() != 'N': # 'upper' makes any input by a user into uppercase
   play()
   answer = input('Keep playing? (Y/N) ')
